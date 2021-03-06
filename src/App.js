@@ -48,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>hello react</h1>
+      <img alt="messenger-logo" src="https://img.icons8.com/fluent/48/000000/facebook-messenger--v1.png"  />
       <h2>Welcome {username}</h2>
 
       <form className="App__form" onSubmit={sendMessage}>
